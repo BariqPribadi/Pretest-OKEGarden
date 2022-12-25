@@ -1,0 +1,160 @@
+.navbar-nav li a {
+    color: #4D4D4D;
+}
+body{
+    background: #f8f8f8;
+}
+.p1{
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4d4d4d;
+    /* line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #191919; */
+}
+.p2{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+}
+.p3{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 17px; 
+    color: #4d4d4d;
+}
+.button1{
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: 2px solid #807c7c;
+    border-radius: 10px;
+    background: white;
+
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 20px;
+    color: #1286d1;
+}
+.button2{
+    width: auto;
+    height: auto;
+    background: white;
+    border: 2px solid #00640e;
+    border-radius: 10px;
+    padding: 13px 17px;
+
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #00640e;
+}
+.button3{
+    width: auto;
+    height: 42px;
+    background: white;
+    border: 2px solid #007317;
+    border-radius: 10px;
+    padding: 0px 10px;
+
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #007317;
+}
+.button4{
+    width: 80px;
+    height: 50px;
+    background: #f8f9fa;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0d6a28;
+    transition: 0.1s; 
+}
+.button5{
+    background: transparent;
+    border: 0;
+    transition: 0.1s; 
+}
+.button2:hover{
+    background: #5ecc7e;
+}
+.button2:focus{
+    background: #5ecc7e;
+}
+.button1:hover{
+    background: #99cbeb;
+}
+.button1:focus{
+    background: #99cbeb;
+}
+.button3:hover{
+    background: #5ecc7e;
+}
+.button3:focus{
+    background: #5ecc7e;
+}
+.button4:active{
+    transform: translateY(2px);
+}
+.button5:active{
+    transform: translateY(2px);
+}
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+h1{
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+table{
+    height: 210px;
+    width: 180px;
+}
+thead{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+tbody{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #626262;
+}
+td {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+td div{
+    padding-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+tbody tr td div:hover{
+    border-radius: 50%;
+    background: #43b5ff;
+    color: #ffffff; 
+    cursor: default;  
+}
+tbody tr td div:focus{
+    border-radius: 50%;
+    background: #43b5ff;
+    color: #ffffff; 
+    cursor: default;  
+}
+/* .pressed{
+    border-radius: 50%;
+    background: red;
+    color: #ffffff; 
+    cursor: default;   
+} */
