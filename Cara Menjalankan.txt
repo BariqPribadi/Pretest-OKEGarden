@@ -1,0 +1,7 @@
+Cara menjalankan project
+1. ketik composer update pada console command dalam direktori file
+2. ubah nama file .env.example menjadi .env
+3. jalankan perintah php artisan key:generate pada console command
+4. jalankan perintah php artisan cache:clear pada console command
+5. jalankan perintah php artisan config:clear pada console command
+6. jalankan perintah php artisan serve pada console command
